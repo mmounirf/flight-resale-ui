@@ -1,0 +1,16 @@
+.stepperContainer {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  gap: var(--mantine-spacing-xl);
+}
+
+.stepsContainer {
+  width: 300px;
+}
+
+.stepContent {
+  padding: 0;
+  width: 80%;
+}

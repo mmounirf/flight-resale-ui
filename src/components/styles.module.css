@@ -1,0 +1,34 @@
+.confirm {
+  display: flex;
+  width: 100%;
+  border: rem(1px) solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-8));
+  border-radius: var(--mantine-radius-sm);
+  padding: var(--mantine-spacing-lg);
+  background-color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-8));
+
+  @mixin hover {
+    background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-9));
+  }
+}
+
+.itinerary {
+  @mixin hover {
+    cursor: pointer;
+    background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-9));
+  }
+}
+
+.segmentLine {
+  height: 40px;
+  width: 4px;
+  border-right: 4px dotted var(--mantine-color-cyan-2);
+}
+
+.collapseIcon {
+  transition: transform var(--accordion-transition-duration, 0.2s) ease;
+}
+
+.collapseIconAnimated {
+  transform: var(--_chevron-transform, rotate(-180deg));
+  transition: transform var(--accordion-transition-duration, 0.2s) ease;
+}

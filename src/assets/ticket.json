@@ -1,0 +1,350 @@
+{
+  "type": "flight-order",
+  "flightOffers": [
+    {
+      "type": "flight-offer",
+      "id": "1",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2023-11-24",
+      "lastTicketingDateTime": "2023-11-24",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT7H40M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "DUS",
+                "at": "2024-01-01T17:25:00"
+              },
+              "arrival": {
+                "iataCode": "MUC",
+                "terminal": "2",
+                "at": "2024-01-01T18:35:00"
+              },
+              "carrierCode": "LH",
+              "number": "2023",
+              "aircraft": {
+                "code": "320"
+              },
+              "operating": {
+                "carrierCode": "LH"
+              },
+              "duration": "PT1H10M",
+              "id": "21",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "MUC",
+                "terminal": "2",
+                "at": "2024-01-01T21:20:00"
+              },
+              "arrival": {
+                "iataCode": "CAI",
+                "terminal": "3",
+                "at": "2024-01-02T02:05:00"
+              },
+              "carrierCode": "MS",
+              "number": "586",
+              "aircraft": {
+                "code": "32Q"
+              },
+              "operating": {
+                "carrierCode": "MS"
+              },
+              "duration": "PT3H45M",
+              "id": "22",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        },
+        {
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "CAI",
+                "terminal": "3",
+                "at": "2024-10-01T02:35:00"
+              },
+              "arrival": {
+                "iataCode": "VIE",
+                "terminal": "3",
+                "at": "2024-10-01T06:10:00"
+              },
+              "carrierCode": "OS",
+              "number": "866",
+              "aircraft": {
+                "code": "321"
+              },
+              "operating": {
+                "carrierCode": "OS"
+              },
+              "duration": "PT3H35M",
+              "id": "33",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "VIE",
+                "terminal": "3",
+                "at": "2024-10-01T07:25:00"
+              },
+              "arrival": {
+                "iataCode": "DUS",
+                "at": "2024-10-01T09:00:00"
+              },
+              "carrierCode": "OS",
+              "number": "151",
+              "aircraft": {
+                "code": "320"
+              },
+              "operating": {
+                "carrierCode": "OS"
+              },
+              "duration": "PT1H35M",
+              "id": "34",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "total": "983.20",
+        "base": "598.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "983.20",
+        "additionalServices": [
+          {
+            "amount": "80.00",
+            "type": "CHECKED_BAGS"
+          }
+        ]
+      },
+      "pricingOptions": {
+        "fareType": ["PUBLISHED"],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": ["LH"],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "EUR",
+            "total": "491.60",
+            "base": "299.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "21",
+              "cabin": "ECONOMY",
+              "fareBasis": "KNCDES3",
+              "brandedFare": "ECOSAVER",
+              "class": "K",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "22",
+              "cabin": "ECONOMY",
+              "fareBasis": "KNCDES3",
+              "brandedFare": "ECOSAVER",
+              "class": "K",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "33",
+              "cabin": "ECONOMY",
+              "fareBasis": "KNCDES3",
+              "brandedFare": "ECOSAVER",
+              "class": "K",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "34",
+              "cabin": "ECONOMY",
+              "fareBasis": "KNCDES3",
+              "brandedFare": "ECOSAVER",
+              "class": "K",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        },
+        {
+          "travelerId": "2",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "EUR",
+            "total": "491.60",
+            "base": "299.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "21",
+              "cabin": "ECONOMY",
+              "fareBasis": "KNCDES3",
+              "brandedFare": "ECOSAVER",
+              "class": "K",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "22",
+              "cabin": "ECONOMY",
+              "fareBasis": "KNCDES3",
+              "brandedFare": "ECOSAVER",
+              "class": "K",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "33",
+              "cabin": "ECONOMY",
+              "fareBasis": "KNCDES3",
+              "brandedFare": "ECOSAVER",
+              "class": "K",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "34",
+              "cabin": "ECONOMY",
+              "fareBasis": "KNCDES3",
+              "brandedFare": "ECOSAVER",
+              "class": "K",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "travelers": [
+    {
+      "id": "1",
+      "dateOfBirth": "1990-27-05",
+      "name": {
+        "firstName": "Mohamed",
+        "lastName": "Mounir"
+      },
+      "gender": "MALE",
+      "contact": {
+        "emailAddress": "mmounir@oppa.app",
+        "phones": [
+          {
+            "deviceType": "MOBILE",
+            "countryCallingCode": "49",
+            "number": "15237161606"
+          }
+        ]
+      },
+      "documents": [
+        {
+          "documentType": "PASSPORT",
+          "birthPlace": "CAIRO",
+          "issuanceLocation": "CAIRO",
+          "issuanceDate": "2015-04-14",
+          "number": "00000000",
+          "expiryDate": "2025-04-14",
+          "issuanceCountry": "EG",
+          "validityCountry": "EG",
+          "nationality": "EG",
+          "holder": true
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "dateOfBirth": "1991-07-10",
+      "gender": "FEMALE",
+      "contact": {
+        "emailAddress": "maisalahelwakeel@oppa.app",
+        "phones": [
+          {
+            "deviceType": "MOBILE",
+            "countryCallingCode": "49",
+            "number": "15237161606"
+          }
+        ]
+      },
+      "name": {
+        "firstName": "Mai",
+        "lastName": "Elwakeel"
+      }
+    }
+  ],
+  "remarks": {
+    "general": [
+      {
+        "subType": "GENERAL_MISCELLANEOUS",
+        "text": "ONLINE BOOKING FROM OPPA"
+      }
+    ]
+  },
+  "ticketingAgreement": {
+    "option": "DELAY_TO_CANCEL",
+    "delay": "6D"
+  },
+  "contacts": [
+    {
+      "addresseeName": {
+        "firstName": "PABLO",
+        "lastName": "RODRIGUEZ"
+      },
+      "companyName": "INCREIBLE VIAJES",
+      "purpose": "STANDARD",
+      "phones": [
+        {
+          "deviceType": "LANDLINE",
+          "countryCallingCode": "34",
+          "number": "480080071"
+        },
+        {
+          "deviceType": "MOBILE",
+          "countryCallingCode": "33",
+          "number": "480080072"
+        }
+      ],
+      "emailAddress": "support@increibleviajes.es",
+      "address": {
+        "lines": ["Calle Prado, 16"],
+        "postalCode": "28014",
+        "cityName": "Madrid",
+        "countryCode": "ES"
+      }
+    }
+  ]
+}
