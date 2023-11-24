@@ -7,7 +7,7 @@ import ValidateTicketStep from '../components/ValidateTicketStep';
 import classes from './SellTicketPage.module.css';
 
 export default function SellTicketPage() {
-  const [active, setActive] = useState(1);
+  const [active, setActive] = useState(0);
   const [loadingStep, setLoadingStep] = useState<number | null>();
 
   return (
